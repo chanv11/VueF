@@ -50,7 +50,6 @@ export default {
         this.newsList = res.data
        
       },(err) => {
-        console.log(err)
       })
     },
     data () {
@@ -201,9 +200,6 @@ export default {
 }  
 .index-left-block li {
   padding: 5px;
-<<<<<<< HEAD
-}  
-=======
 }
 .index-board-list {
   overflow: hidden;
@@ -249,13 +245,10 @@ export default {
   min-height: 400px
  
 }
->>>>>>> dev
 .hot-tag {
   background: red;
   color: #fff;
 }
-<<<<<<< HEAD
-=======
 .new-item {
   display: inline-block;
   width: 230px;
@@ -264,5 +257,4 @@ export default {
   white-space: nowrap;
   font-size : 100%;
 }
->>>>>>> dev
 </style>
