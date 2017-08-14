@@ -5,8 +5,10 @@ import App from './App'
 import layout from './components/layout'
 import VRouter from 'vue-router'
 import IndexPage from './pages/index'
+import VueResource from 'vue-resource'
 
  Vue.use(VRouter)
+ Vue.use(VueResource)
 
  let router = new VRouter({
    mode: 'history',
